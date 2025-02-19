@@ -1,4 +1,4 @@
-#The comments made in this code are in Portugues. So you can translate them if necessary.
+#The comments made in this code are in Portuguese. So you can translate them if necessary.
 
 # O algorítmo está programado para executar 100 períodos de ciclo do PWM. Se quiser alterar, mude a variável "MAX_MEDIDAS"
 import machine
