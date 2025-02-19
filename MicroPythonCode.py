@@ -1,3 +1,6 @@
+#The comments made in this code are in Portugues. So you can translate them if necessary.
+
+# O algorítmo está programado para executar 100 períodos de ciclo do PWM. Se quiser alterar, mude a variável "MAX_MEDIDAS"
 import machine
 import utime
 
@@ -33,7 +36,7 @@ def pwm_isr(timer):
     valor_adc2 = adc2.read_u16()
 
     t_fim = utime.ticks_us()  # Marca o tempo após a leitura
-    tempo_conversao = utime.ticks_diff(t_fim, t_inicio)  # Calcula tempo de conversão
+    tempo_conversao = t_fim - t_inicio
 
     # Armazena as leituras e tempo de conversão
     buffer_adc1.append(valor_adc1)
