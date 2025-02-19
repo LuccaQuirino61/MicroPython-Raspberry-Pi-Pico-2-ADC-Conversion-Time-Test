@@ -1,7 +1,7 @@
 # Testing the conversion time of the Raspberry Pi Pico 2 ADC using MicroPython, to be used in a real-time control system with PWM at 50kHz
 
 ## Project Description
-This project aims to test the ADC conversion time of a Raspberry Pi Pico 2 programmed using MicroPython, to be applied in a real-time control system with a PWM at 50kHz frequency using 2 ADC.
+This project aims to test the ADC conversion time of a Raspberry Pi Pico 2 programmed using MicroPython, to be applied in a real-time control system with a PWM at 50kHz frequency using two ADCs.
 
 ## Project Structure
 - **MicroPython Code:** Programming structure to evaluate the period it takes for the ADC to convert.
