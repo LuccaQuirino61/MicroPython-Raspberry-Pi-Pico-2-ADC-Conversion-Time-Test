@@ -1,7 +1,7 @@
-# Testing the conversion time of the Raspberry Pi Pico 2 ADC using MicroPython, to be used in a control system with PWM at 50kHz
+# Testing the conversion time of the Raspberry Pi Pico 2 ADC using MicroPython, to be used in a real-time control system with PWM at 50kHz
 
 ## Project Description
-This project aims to test the ADC conversion time of a Raspberry Pi Pico 2 programmed using MicroPython, to be applied in a control system with a PWM at 50kHz frequency using 2 ADC.
+This project aims to test the ADC conversion time of a Raspberry Pi Pico 2 programmed using MicroPython, to be applied in a real-time control system with a PWM at 50kHz frequency using 2 ADC.
 
 ## Project Structure
 - **MicroPython Code:** Programming structure to evaluate the period it takes for the ADC to convert.
@@ -27,6 +27,8 @@ As we are working with a PWM frequency of 50kHz, the period of one cycle of our 
 ## Results
 The average conversion time of the two ADCs was **16.54us** after 100 PWM cycle periods.
 Therefore, for a period of 20us of PWM, we achieved, with two ADCs, a satisfactory response time for a real-time control system.
+To use the microcontroller's 3 ADC channels in a real-time control system, it would be necessary to reduce the PWM frequency, because the conversion time of 3 simultaneous channels goes beyond the 20us period of the PWM cycle.
+But for 2 channels or less, the Raspberry Pi Pico 2, programmed in Micropython, can process in a satisfactory time for the system.
 
 ## Author
 Lucca Pereira Parenti Quirino, Electrical Engineering Student - INEP - UFSC
