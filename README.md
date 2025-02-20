@@ -26,9 +26,9 @@ As we are working with a PWM frequency of 50kHz, the period of one cycle of our 
 
 ## Results
 The average conversion time of the two ADCs was **16.54us** after 100 PWM cycle periods.
-Therefore, for a period of 20us of PWM, we achieved, with two ADCs, a satisfactory response time for a real-time control system.
-To use the microcontroller's 3 ADC channels in a real-time control system, it would be necessary to reduce the PWM frequency, because the conversion time of 3 simultaneous channels goes beyond the 20us period of the PWM cycle.
-But for 2 channels or less, the Raspberry Pi Pico 2, programmed in Micropython, can process in a satisfactory time for the system.
+Therefore, for a period of 20us of PWM, we achieved, with two ADCs, a satisfactory response time for a real-time control system.  
+To use the three microcontroller's ADC channels in a real-time control system, it would be necessary to reduce the PWM frequency, because the conversion time of three simultaneous channels goes beyond the 20us period of the PWM cycle.
+But for two channels or less, the Raspberry Pi Pico 2, programmed in Micropython, can process in a satisfactory time for the system.
 
 ## Author
 Lucca Pereira Parenti Quirino, Electrical Engineering Student - INEP - UFSC
