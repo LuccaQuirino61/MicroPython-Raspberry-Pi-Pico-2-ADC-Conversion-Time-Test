@@ -16,8 +16,12 @@ This project aims to test the ADC conversion time of a Raspberry Pi Pico 2 progr
   - utime
 
 ## Setup Instructions
-1. Flash the MicroPython firmware onto the Raspberry Pi Pico 2.
-2. Upload the provided MicroPython script to the board.
+1. Plug de raspberry pi pico 2 into your laptop while holding the bootsell buttom;
+2. Then, with Thonny IDE open, follow these instructions:
+- Run tab
+- configure interpreter
+- select: Micropython (Raspberry pi pico)
+- install Micropython firmware on screen's bottom right side
 3. Run the script and observe the ADC conversion time.
 4. Analyze the results and compare them with the system's requirements.
 
